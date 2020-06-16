@@ -1,0 +1,15 @@
+//
+//  ViewController.h
+//  QNPing
+//
+//  Created by yangsen on 2020/6/16.
+//  Copyright © 2020 yangsen. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface ViewController : UIViewController
+
+
+@end
+
