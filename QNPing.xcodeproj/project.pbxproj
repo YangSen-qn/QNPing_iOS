@@ -16,6 +16,8 @@
 		31DD31F724989C34004BFDDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DD31F624989C34004BFDDE /* main.m */; };
 		31DD320124989C34004BFDDE /* QNPingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DD320024989C34004BFDDE /* QNPingTests.m */; };
 		31DD320C24989C34004BFDDE /* QNPingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DD320B24989C34004BFDDE /* QNPingUITests.m */; };
+		31DD321F2498ADAE004BFDDE /* QNSimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DD321D2498ADAE004BFDDE /* QNSimplePing.m */; };
+		31DD32222498ADC3004BFDDE /* QNPing.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DD32212498ADC3004BFDDE /* QNPing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		31DD320724989C34004BFDDE /* QNPingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QNPingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31DD320B24989C34004BFDDE /* QNPingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QNPingUITests.m; sourceTree = "<group>"; };
 		31DD320D24989C34004BFDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31DD321D2498ADAE004BFDDE /* QNSimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNSimplePing.m; sourceTree = "<group>"; };
+		31DD321E2498ADAE004BFDDE /* QNSimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNSimplePing.h; sourceTree = "<group>"; };
+		31DD32202498ADC3004BFDDE /* QNPing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QNPing.h; sourceTree = "<group>"; };
+		31DD32212498ADC3004BFDDE /* QNPing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QNPing.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,7 @@
 		31DD31E324989C30004BFDDE /* QNPing */ = {
 			isa = PBXGroup;
 			children = (
+				31DD321924989C46004BFDDE /* Ping */,
 				31DD31E424989C30004BFDDE /* AppDelegate.h */,
 				31DD31E524989C30004BFDDE /* AppDelegate.m */,
 				31DD31E724989C30004BFDDE /* SceneDelegate.h */,
@@ -135,6 +142,17 @@
 				31DD320D24989C34004BFDDE /* Info.plist */,
 			);
 			path = QNPingUITests;
+			sourceTree = "<group>";
+		};
+		31DD321924989C46004BFDDE /* Ping */ = {
+			isa = PBXGroup;
+			children = (
+				31DD321E2498ADAE004BFDDE /* QNSimplePing.h */,
+				31DD321D2498ADAE004BFDDE /* QNSimplePing.m */,
+				31DD32202498ADC3004BFDDE /* QNPing.h */,
+				31DD32212498ADC3004BFDDE /* QNPing.m */,
+			);
+			path = Ping;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,10 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31DD32222498ADC3004BFDDE /* QNPing.m in Sources */,
 				31DD31EC24989C30004BFDDE /* ViewController.m in Sources */,
 				31DD31E624989C30004BFDDE /* AppDelegate.m in Sources */,
 				31DD31F724989C34004BFDDE /* main.m in Sources */,
 				31DD31E924989C30004BFDDE /* SceneDelegate.m in Sources */,
+				31DD321F2498ADAE004BFDDE /* QNSimplePing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
